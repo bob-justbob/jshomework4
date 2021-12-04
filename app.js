@@ -52,6 +52,9 @@ mainDiv.classList.add('whyThisIsSoBlack')
 
 
 const btn3 = document.getElementById('btn3')
+const btn4 = document.getElementById('btn4')
+
+
 btn3.onclick = () => {
 second.classList.add('big');
 second.classList.add('ghost');
@@ -59,3 +62,9 @@ second.classList.add('whyThisIsSoBlack');
 }
 
 
+btn4.onclick = () => {
+    second.classList.add('bigNo')
+    second.classList.add('black')
+    second.classList.add('whyThisIsSoWite')
+
+}
